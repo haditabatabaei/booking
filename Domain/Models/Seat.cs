@@ -3,6 +3,7 @@ namespace dotnetcoreapi.Domain.Models
     public class Seat
     {
         public int id{get;set;}
+
         public float posX {get;set;}
 
         public float posY {get;set;}
