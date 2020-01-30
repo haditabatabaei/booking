@@ -7,6 +7,7 @@ namespace dotnetcoreapi.Domain.Models
         public int userId {get;set;}
         
         public int showId {get;set;}
+
         public Show show{get;set;}
 
         public int seatId {get;set;}
