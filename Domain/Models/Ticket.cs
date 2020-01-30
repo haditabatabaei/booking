@@ -2,21 +2,21 @@ namespace dotnetcoreapi.Domain.Models
 {
     public class Ticket
     {   
-        public int Id{get;set;}
+        public int id{get;set;}
         
-        public int UserId {get;set;}
+        public int userId {get;set;}
         
-        public int ShowId {get;set;}
-        public Show Show{get;set;}
+        public int showId {get;set;}
+        public Show show{get;set;}
 
-        public int SeatId {get;set;}
+        public int seatId {get;set;}
 
-        public Seat Seat{get;set;}
+        public Seat seat{get;set;}
 
-        public Ticket(int Id, int UserId, int ShowId, int SeatId) {
-            this.Id = Id;
-            this.UserId = UserId;
-            this.ShowId = ShowId;
+        public Ticket(int id, int userId, int ShowId, int seatId) {
+            this.id = id;
+            this.userId = userId;
+            this.showId = ShowId;
         }
     }
 }
