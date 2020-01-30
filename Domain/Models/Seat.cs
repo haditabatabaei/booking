@@ -3,20 +3,19 @@ namespace dotnetcoreapi.Domain.Models
     public class Seat
     {
         public int Id{get;set;}
-        public float x {get;set;}
+        public float PosX {get;set;}
 
-        public float y {get;set;}
+        public float PosY {get;set;}
         
-        public int salon_id {get;set;}
+        public int SalonId {get;set;}
 
-        public Salon salon {get;set;}
+        public Salon Salon {get;set;}
 
-
-        public Seat(int Id,float x, float y, int salon_id) {
+        public Seat(int Id,float PosX, float PosY, int SalonId) {
             this.Id = Id;
-            this.x = x;
-            this.y = y;
-            this.salon_id = salon_id;
+            this.PosX = PosX;
+            this.PosY = PosY;
+            this.SalonId = SalonId;
         }
     }
 }
